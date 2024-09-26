@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+.profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px; 
+    
+    width: 100%;
+}
+
+.profile h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.profile-header .info{
+    font-size: 1rem;
+    color: #555;
+    text-align: right;
+    
+}
+
+.personal-profile{
+    border-top: 5px solid #eee600e1;  
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap:20px;
+}
+
+.personal-profile h3{
+    padding-top: 25px;
+    font-size: medium;
+    font-style: italic;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.personal-profile p{
+    padding-top: 25px;
+    max-width: 600px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.work-experience{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    gap:20px;
+    
+}
+
+.work-experience h3{    
+    font-size: medium;
+    font-style: italic;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+
+.work-experience p{
+    font-size: medium;
+    max-width: 600px;
+    text-align: left;
+    word-wrap: break-word;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    
+}
+
+.job h3{
+    font-style: normal;
+}
+
+.key-skills{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap:20px;
+    margin-bottom: 20px;
+}
+
+
+.key-skills h3{    
+    font-size: medium;
+    font-style: italic;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: 40px;
+}
+
+
+.education{
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    gap:20px;
+    
+}
+
+.education h3{    
+    font-size: medium;
+    font-style: italic;
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding-right: 55px;
+    padding-top: 10px;
+}
+
+.degree{
+    font-size: medium;
+    max-width: 600px;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+ul{
+    list-style-type: none;
+    padding:0;
+    margin: 0 20px;
+}
+
+li{
+    padding: 5px 0;
+}
